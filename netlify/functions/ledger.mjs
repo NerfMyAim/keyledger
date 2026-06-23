@@ -10,6 +10,13 @@ const response = (statusCode, body) => new Response(JSON.stringify(body), {
   status: statusCode,
   headers: { 'content-type': 'application/json; charset=utf-8' }
 });
+const canonicalType = (value) => {
+  const type = String(value || '').toLowerCase();
+  if (type.includes('lifetime')) return 'Lifetime';
+  if (type.includes('annual') || type.includes('annuel') || type.includes('an pro')) return '1 An Pro';
+  if (type.includes('monthly') || type.includes('mensuel') || type.includes('mois') || type.includes('month')) return '1 Mois';
+  return String(value || '').trim();
+};
 
 async function adminClient(request) {
   const authorization = request.headers.get('authorization') || '';
@@ -67,6 +74,22 @@ export default async (request) => {
         const { error } = await client.rpc('update_key_note', { p_key_id: body.keyId, p_note: body.note || '' });
         if (error) return response(409, { error: error.message });
         return response(200, { ok: true });
+      }
+      if (body.action === 'release-key') {
+        const { error } = await client.rpc('release_inventory_key', { p_key_id: body.keyId, p_note: body.note || '' });
+        if (error) return response(409, { error: error.message });
+        return response(200, { ok: true });
+      }
+      if (body.action === 'add-key') {
+        const keyValue = body.keyValue?.trim();
+        const licenseType = canonicalType(body.licenseType);
+        if (!keyValue || !licenseType) return response(400, { error: 'Key and license type are required' });
+        const { data: key, error } = await client.from('inventory_keys').insert({
+          key_value: keyValue, license_type: licenseType, source_date: body.sourceDate?.trim() || '', state: 'available', note: body.note?.trim() || ''
+        }).select('id').single();
+        if (error) return response(409, { error: error.code === '23505' ? 'Cette clé existe déjà.' : error.message });
+        await client.from('inventory_events').insert({ key_id: key.id, event_type: 'manual_add', note: body.note?.trim() || '' });
+        return response(201, { ok: true });
       }
       if (body.action === 'update-assignment') {
         const { error } = await client.from('assignments').update({

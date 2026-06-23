@@ -42,7 +42,7 @@
 
     <section id="view-stock" class="view">
       <section class="card table-card">
-        <div class="card-title"><div><h2>Inventaire des clés</h2><p id="stock-subtitle">Chaque clé reste visible, même après attribution.</p></div><input id="stock-search" class="search" type="search" placeholder="Rechercher une clé ou un type"></div>
+        <div class="card-title"><div><h2>Inventaire des clés</h2><p id="stock-subtitle">Chaque clé reste visible, même après attribution.</p></div><div class="top-actions"><button id="new-key" class="button primary">+ Ajouter une clé</button><input id="stock-search" class="search" type="search" placeholder="Rechercher une clé ou un type"></div></div>
         <div class="table-wrap"><table><thead><tr><th>Clé</th><th>Type</th><th>Date source</th><th>Statut</th><th>Attribuée à</th><th></th></tr></thead><tbody id="stock-table"></tbody></table></div>
       </section>
     </section>
@@ -103,6 +103,13 @@
     <div class="field"><label for="key-note">Observation</label><textarea id="key-note" rows="5" placeholder="Ex. comportement à surveiller, information importante…"></textarea></div>
     <p class="form-note">Cette note est interne ; elle est visible dans l’inventaire et exportée dans la sauvegarde JSON.</p>
     <div class="modal-actions"><button type="button" class="button ghost" data-close-note-dialog>Annuler</button><button class="button primary" value="default">Enregistrer la note</button></div>
+  </form></dialog>
+  <dialog id="key-add-dialog"><form id="key-add-form" method="dialog">
+    <div class="modal-header"><div><p class="eyebrow">INVENTAIRE</p><h2>Ajouter une clé</h2></div><button type="button" class="icon-button" data-close-key-add-dialog aria-label="Fermer">×</button></div>
+    <div class="field"><label for="key-value">Clé</label><input id="key-value" required autocomplete="off" placeholder="Colle la clé ici"></div>
+    <div class="form-grid"><div class="field"><label for="key-type">Type</label><input id="key-type" list="license-types" required placeholder="ex. 1 An Pro"><datalist id="license-types"><option>Lifetime</option><option>1 An Pro</option><option>1 Mois</option><option>1 Semaine</option></datalist></div><div class="field"><label for="key-source">Source <small>(optionnel)</small></label><input id="key-source" placeholder="ex. achat fournisseur"></div></div>
+    <div class="field"><label for="key-add-note">Note <small>(optionnel)</small></label><textarea id="key-add-note" rows="3" placeholder="Information interne"></textarea></div>
+    <div class="modal-actions"><button type="button" class="button ghost" data-close-key-add-dialog>Annuler</button><button class="button primary" value="default">Ajouter au stock</button></div>
   </form></dialog>
   <dialog id="login-dialog"><form id="login-form" method="dialog">
     <div class="modal-header"><div><p class="eyebrow">SUPABASE</p><h2>Connexion administrateur</h2></div><button type="button" class="icon-button" data-close-login-dialog aria-label="Fermer">×</button></div>

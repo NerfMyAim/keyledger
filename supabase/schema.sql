@@ -84,6 +84,14 @@ create table if not exists public.sellauth_deliveries (
   unique (unique_id, item_id)
 );
 
+create table if not exists public.inventory_events (
+  id uuid primary key default gen_random_uuid(),
+  key_id uuid not null references public.inventory_keys(id) on delete restrict,
+  event_type text not null check (event_type in ('manual_add', 'manual_release')),
+  note text not null default '',
+  created_at timestamptz not null default now()
+);
+
 create or replace function public.is_admin()
 returns boolean language sql stable security definer set search_path = public as $$
   select exists (select 1 from public.profiles where user_id = auth.uid() and is_admin = true);
@@ -92,6 +100,7 @@ $$;
 alter table public.profiles enable row level security;
 alter table public.inventory_keys enable row level security;
 alter table public.assignments enable row level security;
+alter table public.inventory_events enable row level security;
 
 drop policy if exists "Admins read profiles" on public.profiles;
 create policy "Admins read profiles" on public.profiles for select using (public.is_admin());
@@ -171,6 +180,19 @@ begin
 end;
 $$;
 
+create or replace function public.release_inventory_key(p_key_id uuid, p_note text default '')
+returns void language plpgsql security definer set search_path = public as $$
+declare current_state text;
+begin
+  if not public.is_admin() then raise exception 'Not authorized'; end if;
+  select state into current_state from public.inventory_keys where id = p_key_id for update;
+  if current_state is null then raise exception 'Key not found'; end if;
+  if current_state <> 'review' then raise exception 'Only reviewed keys can be made available'; end if;
+  update public.inventory_keys set state = 'available', updated_at = now() where id = p_key_id;
+  insert into public.inventory_events (key_id, event_type, note) values (p_key_id, 'manual_release', p_note);
+end;
+$$;
+
 -- Appelée uniquement par la fonction Netlify SellAuth avec la clé serveur.
 -- Si SellAuth réessaie le même item, la même clé est retournée sans nouvelle attribution.
 create or replace function public.deliver_sellauth_item(
@@ -217,6 +239,20 @@ $$;
 
 revoke all on function public.deliver_sellauth_item(text, text, text, text, text) from public;
 grant execute on function public.deliver_sellauth_item(text, text, text, text, text) to service_role;
+
+-- Variantes SellAuth actuelles. Ce bloc est relançable sans erreur de doublon.
+-- Le produit mensuel délivre ici une clé « 1 Mois Pro » ; remplace par « 1 Mois Lite »
+-- uniquement si c'est réellement le produit vendu.
+insert into public.sellauth_variant_mappings (variant_id, variant_name, license_type, duration_days, active) values
+  ('95060', '1 Semaine', '1 Semaine', 7, true),
+  ('95061', '1 Mois', '1 Mois', 30, true),
+  ('466215', '1 Ans', '1 An Pro', 365, true),
+  ('436705', 'Lifetime', 'Lifetime', null, true)
+on conflict (variant_id) do update set
+  variant_name = excluded.variant_name,
+  license_type = excluded.license_type,
+  duration_days = excluded.duration_days,
+  active = excluded.active;
 
 -- Après ta première connexion Supabase, promouvoir ton propre compte une seule fois :
 -- update public.profiles set is_admin = true where user_id = 'TON-UUID-AUTH';
