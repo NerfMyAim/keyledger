@@ -13,7 +13,7 @@
 2. Active Supabase Auth (au minimum connexion par e-mail) et crée ton compte administrateur.
 3. Dans le SQL Editor, exécute la ligne de promotion indiquée à la fin du schéma avec l’UUID de ton compte.
 4. Dans Netlify, importe ce dossier depuis GitHub ou glisse-le dans le déploiement.
-5. Ajoute dans **Site configuration > Environment variables** `SUPABASE_URL` et `SUPABASE_SERVICE_ROLE_KEY`, à partir de `.env.example`.
+5. Ajoute dans **Site configuration > Environment variables** `SUPABASE_URL` et `SUPABASE_SERVICE_ROLE_KEY`, à partir de `.env.example`. Si tu utilises l’extension Supabase de Netlify, elle peut créer `SUPABASE_DATABASE_URL` à la place : KeyLedger accepte désormais les deux noms.
 6. Exporte une sauvegarde JSON depuis KeyLedger. En local, installe les dépendances puis lance :
 
    ```bash
