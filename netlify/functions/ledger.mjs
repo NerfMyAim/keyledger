@@ -5,6 +5,7 @@ const required = (name) => {
   if (!value) throw new Error(`Missing server configuration: ${name}`);
   return value;
 };
+const supabaseUrl = () => process.env.SUPABASE_URL || process.env.SUPABASE_DATABASE_URL || '';
 const response = (statusCode, body) => new Response(JSON.stringify(body), {
   status: statusCode,
   headers: { 'content-type': 'application/json; charset=utf-8' }
@@ -13,7 +14,8 @@ const response = (statusCode, body) => new Response(JSON.stringify(body), {
 async function adminClient(request) {
   const authorization = request.headers.get('authorization') || '';
   if (!authorization.startsWith('Bearer ')) throw new Error('Missing user session');
-  const url = required('SUPABASE_URL');
+  const url = supabaseUrl();
+  if (!url) throw new Error('Missing server configuration: SUPABASE_URL');
   const serviceRoleKey = required('SUPABASE_SERVICE_ROLE_KEY');
   const client = createClient(url, serviceRoleKey);
   const token = authorization.slice(7);
@@ -41,15 +43,40 @@ export default async (request) => {
     if (request.method === 'POST') {
       const body = await request.json();
       if (!body.discordName?.trim()) return response(400, { error: 'discordName is required' });
-      const { data, error } = await client.rpc('assign_available_key', {
+      if (!body.keyId) return response(400, { error: 'keyId is required' });
+      const { data, error } = await client.rpc('assign_inventory_key', {
+        p_key_id: body.keyId,
         p_discord_name: body.discordName.trim(),
         p_discord_id: body.discordId?.trim() || '',
         p_email: body.email?.trim() || '',
+        p_assigned_at: body.assignedAt || null,
         p_ends_at: body.endsAt || null,
         p_notes: body.notes?.trim() || ''
       });
       if (error) return response(409, { error: error.message });
       return response(201, { assignment: data });
+    }
+    if (request.method === 'PATCH') {
+      const body = await request.json();
+      if (body.action === 'finish') {
+        const { error } = await client.rpc('finish_assignment', { p_assignment_id: body.assignmentId });
+        if (error) return response(409, { error: error.message });
+        return response(200, { ok: true });
+      }
+      if (body.action === 'note') {
+        const { error } = await client.rpc('update_key_note', { p_key_id: body.keyId, p_note: body.note || '' });
+        if (error) return response(409, { error: error.message });
+        return response(200, { ok: true });
+      }
+      if (body.action === 'update-assignment') {
+        const { error } = await client.from('assignments').update({
+          discord_name: body.discordName?.trim(), discord_id: body.discordId?.trim() || '', email: body.email?.trim() || '',
+          assigned_at: body.assignedAt, ends_at: body.endsAt || null, status: body.status, notes: body.notes?.trim() || ''
+        }).eq('id', body.assignmentId);
+        if (error) return response(409, { error: error.message });
+        return response(200, { ok: true });
+      }
+      return response(400, { error: 'Unknown action' });
     }
     return response(405, { error: 'Method not allowed' });
   } catch (error) {
