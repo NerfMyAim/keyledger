@@ -1,0 +1,2309 @@
+{
+  "version": 2,
+  "stock": [
+    {
+      "id": "bb1f40a8-13c8-4bfc-8b07-0fb8b3921993",
+      "key": "282ee6db86f62954a52c755762fd6cb4",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "84222077-b0b9-4689-842e-bbc634d600fe",
+      "key": "47bdec833c0c8dc9b1620f38fdd6aa11",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "00270f09-59ce-4ecc-89b1-8961b007cfa1",
+      "key": "ea5156290c3f4332caad24f32e38c72a",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "7776029a-4e3c-4feb-90ca-ef595f5e9ec1",
+      "key": "eace8434ca4ed7f491a9b158b7a34c74",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "ecd1e7ef-1db9-475d-80b9-e72612535957",
+      "key": "34b63f2e5f1cf87ea7dd3032551eb36c",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "771eeb95-36e0-4c51-9ed4-c83bf996cbaa",
+      "key": "ccfeb5c4a94d78c08629c85bc25bd356",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "f7b0374c-f3af-4c82-9836-59078ff13e84",
+      "key": "71434e3c4892c45a6b5e05afc442eb8c",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "a715d227-1530-4b57-9901-66f85064d093",
+      "key": "bbd035910dbd3649f52b390cfea2ea28",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "631d0237-09b6-44c3-a85c-9a984f5d8e08",
+      "key": "43c1f7ff576a75d95a8f2258279057ea",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "6913c5cd-980f-413b-a071-e69c72360915",
+      "key": "ec1892fc18bc5c30a63566c1979ad04f",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "38a8526f-7e06-4c21-8f6a-8c8e87c89882",
+      "key": "09edcfe49722d402003fe47af2bf7fad",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "ad094762-13c2-4df9-a37b-ad34eb85d4db",
+      "key": "c36b353808e4330062d66771835032d7",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "11d5477b-c5e4-4a89-a2cf-dc594cb90b3e",
+      "key": "45f261531295dcdcfd3d49e9f1080ad4",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "7b5e6cdd-368a-448c-a1e5-e002e8a88a01",
+      "key": "43250f10be6a2065f7ff5c2a242a2632",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "5765660c-5439-4ea2-a58a-a625fce2fa37",
+      "key": "85d85d81e88564116bb504c0ab12a990",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "c7362c34-fe59-4951-8691-3825ac273423",
+      "key": "63a2e6381c5727ecde28bdc7a72e41f2",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "ffc2abe3-fb34-466b-9c64-d5f4732347a8",
+      "key": "d6f7447d7e643c869f2f5acdc5c461c9",
+      "type": "1 An Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "df631631-241b-44ef-8174-84e9622399c7",
+      "key": "5f404451b9f26f58666374dceb2aa1a3",
+      "type": "1 Mois Lite",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "f45ae2a5-6d11-4537-a3ee-6c5b031aebf8",
+      "key": "9c8baeec88e28d935a9de53cfb6d1004",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "9d5b93db-97a5-4b2c-8af2-1018fd4b5e93",
+      "key": "715019f35f55ccb2a17de98cbbe18976",
+      "type": "1 Mois Pro",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "available"
+    },
+    {
+      "id": "4adb22bd-fffb-44c3-bb25-f43c79e34791",
+      "key": "7f0eee8547a4edfcb37f7c4e8f40342b",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "assigned"
+    },
+    {
+      "id": "12f70184-12c5-4ddf-aa47-6ac696c561c6",
+      "key": "Entrée d’inventaire à vérifier",
+      "type": "Lifetime",
+      "sourceDate": "Ancien inventaire Lovable",
+      "importedAt": "2026-06-23T17:20:16.866Z",
+      "state": "review",
+      "note": "Une des 22 lignes de l’ancien stock ne contient pas une clé valide."
+    },
+    {
+      "id": "7de962c7-f711-4c8e-a0d8-923cabecfc46",
+      "key": "13cf2b14af0a6753c0f3b54d84bdeb74",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "3c8fd74e-2e47-44e5-8167-b9064e40e958",
+      "key": "c2a04c66f83c3dbabd3e98fa487beeba",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "2e267f8d-0551-4bff-a122-c17d03c2ec02",
+      "key": "7f9fb0ba0aac16a32007fdcbae1565c2",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "4002d986-f3c6-463f-b51b-f235f20161d4",
+      "key": "685124ceb25edcf3eea3fbb6e29e4c59",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a4ae2447-decd-4988-8163-4bafbdccea24",
+      "key": "21f7505259c47117ce09c579adda357c",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "4ce9d24f-f81a-40e3-afd3-710910b5c894",
+      "key": "e17b081fcab07f500810e1d17d6089a0",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "ca075454-9ca9-4773-99d4-c7e377031012",
+      "key": "3be6d6fea5126e8cf544aa231cee8f50",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "49a85c8a-95ed-4ca5-9148-a3a525cc1ae2",
+      "key": "0a8bdafefb8d123b64c991dd69e0bea7",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a7675e40-bf53-4260-8666-eaa82fdfae78",
+      "key": "eb6c69a254f789e4438388067f52f1a6",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "c5ee4c16-b12c-4132-9877-65a9a08eea7a",
+      "key": "365c537216ec3ce3cb729f5ca5a1af44",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "10751ebe-ca06-4373-9a1f-fde0c8e330aa",
+      "key": "d48ed988782311456530f4f380b65378",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a57b70d6-6d85-4e71-aa7f-fb578c363e18",
+      "key": "faa17489d002438563d4af198aeb9a16",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "be3b20e8-5d34-48a6-bf8c-da25d47cfa71",
+      "key": "930d78b5068888c700d3a8c7a6a44b4b",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "403eb842-61e4-45a2-9dc5-7f0c9f36968b",
+      "key": "9cbb79bf3e4768feba1d0223ea59635e",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "08e85a75-b289-4d33-8fa9-71300bccb243",
+      "key": "c4e4daccfff507b501a3ff545f1bd9af",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "5d7fd3bd-7624-4216-9020-a90fb8c52c1c",
+      "key": "b325c7522239f36da0afca3fc1c04ab6",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "2dbeb672-9942-4c6f-877b-f6cb1847cda8",
+      "key": "9871729485688f9b9ceecb4eb047c5c4",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "91100c80-327c-46b9-9b61-091e32383116",
+      "key": "bc69bf87e6e4ec6a3d1c0dc7e788c176",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "0537949a-a196-449c-9a38-2e05168589b1",
+      "key": "5c5a7a406c5c843bc03dd4fa9cb055ab",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e9b69af1-2b2b-49f1-bc54-da5b950f6932",
+      "key": "ef2736434a0e85f047f9a572b022483a",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "6a7b3f35-f244-48cf-b20b-ee5192bb07a8",
+      "key": "f39da362ebe546506f4500d75f853fab",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "61c50f78-d1c8-4c95-96a2-8f2ff53ac6fc",
+      "key": "52ca903edee0ca84ac0edf7772670a9b",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a1d44840-c70a-48db-96e0-d9de4620c06e",
+      "key": "d3aa7173c23b59e457dee3a7277b63a1",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "3e7f4d57-4a58-4c01-9972-e80d47dda849",
+      "key": "03c76e87f5e2f38f017722c33b8b71e4",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "38b64ff6-d4de-4d11-8027-e848483293c2",
+      "key": "79a813fbc6b667500fab62df1c7230d8",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "df74027b-a788-4800-ae81-6be7df45cd01",
+      "key": "530c8f1d1d5cb79b3d397019102985aa",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "467c6380-6efb-4da4-9ce4-da45bcc1a8e8",
+      "key": "38c55d390a21608eaeef24d7b62ac80c",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e64a5e35-ac8a-4008-bf3e-8ec684640fe5",
+      "key": "ad03826c5cecb8f8665eeb6d62e8243f",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "3cc86370-9b59-4436-b538-2f39fbcc29f4",
+      "key": "fb1557842e59e67b7142a08d3ba454c4",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "faf6744d-eb61-4acb-898b-c8693d207eca",
+      "key": "eac751e8e06cede356b72a22ab8e41d6",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "6a75c2a9-7daf-4287-8071-6830b44d7935",
+      "key": "4d77b244b565ead9c80fb63cc523f34f",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "faad393b-432e-4870-b7e0-82e674263507",
+      "key": "fe2ef3536de50cc584129d96aae9f0f0",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e02af6b1-81bd-4200-9a42-c7dc4b32ba7e",
+      "key": "746290423c879c64d32e319f0e5fbf3a",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "eb7c85cc-022f-4b28-b01d-c03dee273bce",
+      "key": "2f0bf1c2e2a7385f510a268327617bd2",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "132ee1e3-0a5c-47da-907d-e5a04f5b71e3",
+      "key": "dbb8613e734b475f323b73fe36006e65",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "599ad3a3-364c-4f99-8da0-f5ff3b0efc62",
+      "key": "bad2306d3fbcb29db43a4c831f9a2e65",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "08fcfcc2-87df-4269-89a1-891b6f561114",
+      "key": "f18ffbfc475659d857e2a86102cd6163",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "c611efc0-bb62-4b92-afac-309f5a4c8afb",
+      "key": "0b348263588e1d5b517e761b7fc34110",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "5db00de8-ec9f-4163-8e03-4049884845d3",
+      "key": "e35208996332d1c77fb3bcd7ac6aa962",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "07e60a99-1ad5-464c-a5d7-6537740be302",
+      "key": "d206ecb9f6f58ae937108f274d2c9791",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e65d6b77-a3d0-433c-ab0f-0692b3c8dc19",
+      "key": "e343f1e6bb2bf86f470c04a29b2e4162",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "b532d605-4813-4ca2-b7bc-85a2809afa11",
+      "key": "8c3a517da09bfa19d550245fbb68ed11",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "668f2ade-3549-4e31-a755-f94427dabb90",
+      "key": "861e57d32c58c0ca175c393bdcb1441b",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "af2966d5-ff76-410a-87a0-afa59eb7dc05",
+      "key": "fcf9fc1f65dde6f5bcc8d908a4c717a1",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e09881b8-d5ab-4e40-b4cc-0eb5d523dae8",
+      "key": "85fa2b26c4a587474173eedfa7cd0b5c",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "ec3acd0f-22b4-4ee5-8284-47aa7d936f76",
+      "key": "41deb2960c417c2029b3357618a4927e",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "ed579329-e759-4849-800b-84703da6a5eb",
+      "key": "7a7b9421b502738f30218a0509144a28",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a18ae360-6a13-4b23-ace0-a598ca23407f",
+      "key": "8c1b5f5d679a9a443a1a8af0afc7c02c",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "9a4bbb19-22df-4142-82b2-80c93d6e0914",
+      "key": "7c549f07942b6ae971a45b5ad51c7b41",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "f18a4895-ce46-4991-b569-2c70bfdc0458",
+      "key": "40a3857287fb42f340fb4c948c1daf3c",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "78ba6d2c-1967-4d7c-b529-6e7cf5abb00d",
+      "key": "95bedb56577bfb6fa3086cbe01b9a162",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "d3f5ef26-5990-438d-a54c-fb13f487ddf5",
+      "key": "b60d28b55167d80c54b71a30d092544d",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "7d5f7b8b-8fef-4576-93d1-6023ce7e86ef",
+      "key": "b9343f15356627c605a6bd24e8ff573e",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "b01e0200-e33b-41bd-a749-fd7bfd290475",
+      "key": "2c7c2c434d48566559bfeeafd7d6490b",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "07e9db03-8fba-439b-a9e0-45578d03d0d4",
+      "key": "0c5c73c2f57c350234c1b1bc3d281449",
+      "type": "Emulator Annual PRO",
+      "sourceDate": "13/04/2026",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "65c932d2-aa01-4711-aa82-c9a1ce602e28",
+      "key": "bd8ea4774e5af5a66b4a8756f79bb4ae",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "26757826-33be-4b50-8587-f2e6b56e2364",
+      "key": "4eda8810aace4f7897ac1fa1aedf67d6",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "d9c2da68-5913-4a60-9748-8575e14de18f",
+      "key": "ca4ee5386145324557aae539074970cb",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "05f8344e-6068-45c7-8bbb-66b677725c7a",
+      "key": "e4d7f368e9e63e63d4d75c247b00bb97",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "72987ace-89ef-4558-a9a1-d9ffc989c658",
+      "key": "59e90493e2983b43e4a6c73c5b5dc19d",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "5a515caf-3366-401b-b592-e47fc58f4996",
+      "key": "623124cee9e855076f41cde45d3841fb",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "c42315c6-db43-4ae6-be74-609dd6737ec4",
+      "key": "d757200f3cf4580fb18cf44f2d1380ae",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "6d649ba3-2c9b-4bda-8ebc-83e6b06d18f8",
+      "key": "e7a18172eb52f00f48c8e1cd57ea6584",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "fca66b31-548c-420f-b20c-42292d77caf7",
+      "key": "77b79f32f9cad72c0c88aa0c039638e6",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "69d1b642-36f9-43b5-975d-b885a98f4a7d",
+      "key": "fd716b779ab5ef30a549ef1940cfb5b5",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "edbc1b48-49d1-42f4-8cf5-9ab272362622",
+      "key": "7067df38c4e269183080eed91b4df8b5",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "f64abd86-548f-4b02-9782-a1aef8589ee7",
+      "key": "fe6d007c86beeb2507c8f7340d0b97cd",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e1b7466b-36fc-46b0-87f1-a86efaa9856e",
+      "key": "e4fa39295dcf5bb0fc726f360eb2eb57",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "4dc74d53-46c4-401c-bb36-777ef466e8d0",
+      "key": "d7d75d2cb0586c1638b4bd28b5560607",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "38b71168-2822-46a8-a6e1-103bec6fa32a",
+      "key": "767528153bad5e6479d3d4ea39ab3331",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a866ee1c-b051-4f66-8786-a44a0dedc539",
+      "key": "2c3450a970ec80403449095b01be606d",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "45820a90-af75-494b-96d2-d43ad008553d",
+      "key": "b21d1268e5314e2e9f97dabde7aa13a6",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "021556c5-a3ab-46a1-a720-6941996e9304",
+      "key": "029b9830f077957cb64b3126bf1aeaa6",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "178309b2-0fa0-489c-ab75-a216843de0ca",
+      "key": "73aef1a80f76cbcf92d8046d04082b95",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "07d4f4eb-0329-4c31-8326-6684e0523f9e",
+      "key": "7788c5c637741499fb1ed9110c21b005",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "26fb3db1-e88b-42b9-89b6-825983a2ff74",
+      "key": "01a1b2bd21ca7428a812119521b78d0e",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "9dcca950-40b4-443c-930b-39c870d19d8d",
+      "key": "a958a689d7bb8cb93839ee22e64e9684",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "bd27452d-05d4-4cad-a580-78e2d3e183a5",
+      "key": "8fdccf7b2484562ee8b46dc57980afce",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "43657a90-08a0-4030-8f11-fba07a99c278",
+      "key": "307ed137bf6ffcea75cd3b1ca7c28267",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "492e0798-fac2-46c4-a162-beeeeb9df232",
+      "key": "0c21399a15b40b29580ce22378f9d211",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "438b4c2c-366a-4835-9fad-d4820eda6f84",
+      "key": "301529b4a46848518c8a227c7440f80a",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "15d6c224-ace3-4d54-a0dd-65e57b34abf5",
+      "key": "47d56cdfc350638e55f63617cd098367",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "dd663bf6-b831-40ee-ba22-5edc3d285658",
+      "key": "7f28bd781d0f24d66822a79bc18aa87e",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "b78efac4-f67e-48b1-9596-5ea6f2c8efa9",
+      "key": "0a05304bf164bd1945ee84306182d7b1",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "571b324f-f9ae-4b02-ae13-d8499cd90ed2",
+      "key": "1fcfdbb8d241c92e66d62c3f8575b5b4",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "ff1b2025-b00a-4b2e-953b-a651cc2ae847",
+      "key": "deb1a412445aed9a049c791915c14119",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "2b242c34-1746-4223-ac00-224cbcf015b4",
+      "key": "09f8bb6531b87f6821786e11c4694d1d",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "533ab419-2591-4b30-956a-ae1d71c0d867",
+      "key": "ea7d0d269664608348108e0bc3bb4c86",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "6f233858-c3e1-4672-b377-952f079e5cc7",
+      "key": "7444c37ecc82d1c0d2260267bb0aaed8",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "94371b95-bc6b-4c92-9a91-d2fc4a05d05a",
+      "key": "f21013a43472da55e4d0390bedb1db96",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "64cd5880-cbc2-42a5-a699-34e6187254a6",
+      "key": "3a2aa4d5d9be0fa8a299037088c14454",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "68f7abb6-589d-47c2-8d11-e2181a70e019",
+      "key": "b59791a2c501a2654d754fbdb0784f3a",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "69bcbeaa-181e-489c-91cb-aae79b2ac5fd",
+      "key": "00b2cda922e79889931c24e31f190c2a",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "c227f743-0aba-4fa3-b18a-da62f11b286c",
+      "key": "6c373750291bf96fcaf09fad46379294",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "10958c32-979e-4f98-81f5-b43a4e6f2843",
+      "key": "5b8724906b578fab5efe527c10900ac7",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "2a973326-7dfd-473b-bf56-a8840ddf2f30",
+      "key": "42ef46879db6ba7ac45df940124c2ff4",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "11/11/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "200c9b00-3590-4ad4-859e-8fbac199b28d",
+      "key": "b1cd340eec87bd9e12fbedd1401c9a8a",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "20/10/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "54c850ce-da51-4215-abe8-0ff247210e8a",
+      "key": "33257446ebe8dead3afb9cb70c378d4e",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e7867b8e-31c2-464e-8f00-a1dcaee698f5",
+      "key": "561690f65ca21bfdf14cb0352f38ac92",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "6105d8bb-a0e0-4b12-a5c2-86c341fe447e",
+      "key": "654d53b1c48591505090e3c2fb4fd431",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "9df755d6-7846-49e1-942f-1b13712e5ca9",
+      "key": "1c747f543f4e34a9c421cdf075f9f214",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "9aad4127-804d-4371-85f5-923e748ce418",
+      "key": "57d34f8f64b87a821236685731c2fba7",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "ec0b1eee-d1a4-4adc-8e9b-75939c51c75d",
+      "key": "f1e1db5d57b4ae8bc1404ff6edccfb8d",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "2451c94b-bc0b-4d21-87fa-7d3b32b283ee",
+      "key": "fb5d828c3266c56af79a7baa46becbde",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "ba225387-024f-4c68-9b06-4d72c3e0f1ee",
+      "key": "22d521d4e38bcf52503d5e53a77df03e",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "6d87ce96-c3b2-43e3-bfc8-f7344e1933bd",
+      "key": "29ffca1f2fad129a26bb0d0c2acec746",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "0188745f-48d8-425c-b00f-af496d371282",
+      "key": "fce8dc08bb4d7f68ff7e5f7b746d8e61",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "9141f47c-456c-4fde-91b3-e0f44f26b298",
+      "key": "53bfc00629019173954495de8b58026f",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "dfd25830-a4c2-4fd9-9556-0638a9318f96",
+      "key": "c3981d8bcd63b00d1af56242db8997c8",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "51491e1c-f7a9-4da7-8b17-5a362d903269",
+      "key": "75c138eeca00b8f6c87d6d54e9b2515d",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "1fb26885-06bd-4039-a922-c4dfc0d3e82b",
+      "key": "9f4c05ba6f4f740db37b600845fa02d1",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "90f4e83a-eec2-48bc-a5f3-804b1b5d5ab1",
+      "key": "a7ac851b66081ba699b6bfe345213d12",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "e8f35cf1-b2d6-4505-8998-97c66af7b1b8",
+      "key": "de9642bbf3c75a6bba591236881382eb",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "847f779e-eab2-4e00-b969-40b86b345d7c",
+      "key": "f23fa41b35f654812c5eb19e0a8dbf7c",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "c1fde84d-42f5-4b1f-9fbe-edca0de432ed",
+      "key": "5dcb6afa26cc0cd29ee6997adf087ebe",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "7bdbd5ab-0bc2-429d-a50d-0f9b3e9fe053",
+      "key": "7b02c4793b7c53b4439dca7c85cc5415",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "b149802b-8633-4ef7-ba97-2daf15a1271e",
+      "key": "fff4e8376646328a7648e65d364db6be",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "cac4e8ca-c761-4ef1-b200-51bfa7aa4ce0",
+      "key": "583cea363350ec0cf2e55beddd40944d",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "30/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "5cd60632-7c7e-4df5-aa41-0a5618d1e1bd",
+      "key": "b063b42587f01b6f0d0d113c37d00e39",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "210d22a0-e103-4ca9-8200-ba8d5944940d",
+      "key": "1edcaac15c58cbaaa9f6f09102b5e115",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "38e82754-cd4d-4dc2-999d-52d1648d0876",
+      "key": "95d3e98413e4d026dbc9cb7f897f153b",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "f9cec6ce-fab7-4317-862e-891c46390675",
+      "key": "77dcf4a6ffacb8e9e4237e113c74acf8",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "04d80478-9081-4b94-a973-ddf1e3782c16",
+      "key": "87eea1eaa9bf7d01eb3ba93c04704de1",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "04c33ccd-8d63-42ee-a361-3c5a05310ad4",
+      "key": "c6a7d46b6566a2baa9a27c82cc9ee370",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "06d6df27-a530-467a-88ca-26a179e33f77",
+      "key": "57e9a0a666bf82e8bae307bf6ba94f50",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "f62f18eb-9d42-41c3-b86b-3f50853cb504",
+      "key": "185acbaf2b5f0e4ae19657ca9711a383",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "02270e18-703b-4c6d-b8af-94fd0a4d5af8",
+      "key": "c3e0867994a8b19aac69c1eaefed6f09",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "075757d4-afe2-4d93-8683-5c14e3cf07c6",
+      "key": "e1163e02b474a185bd85d755e9e2f1d2",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "dd572314-7fb6-4484-ad3b-1693404e53bd",
+      "key": "a95b31c0b22eac5a3b6865845d4a41be",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "24f93c23-e624-4871-94b0-492661f78f8a",
+      "key": "cd7208d1ca175ec694852c378bc03b39",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "c8c10814-3223-4b2b-918f-f52e2bcfd408",
+      "key": "44a1ae6f46e75c2250d38113d675f579",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "59e0da1e-0333-4624-a82a-1bf313b9443b",
+      "key": "4b12bd389239870af3fe450a59c59f72",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "5729e290-7fd1-4c3c-af01-112ebc7485d7",
+      "key": "129b398128409dcdb0248252b619f5c6",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "d2967ee4-94b3-41f9-b661-040068fdcc17",
+      "key": "a7961567cb6e418f5c8987e1c67e733f",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "9c2bc328-c16d-4b48-875c-3914ff2a5dc6",
+      "key": "f99db8d183c70748f1d307ac12b270ea",
+      "type": "WinBooster Day",
+      "sourceDate": "19/09/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "483740ef-d994-4a51-935a-00c1c6ec28fd",
+      "key": "5d2d2fcab3c44ca59dca28d494c5b7d1",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "28/08/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "19e81acd-6d6c-462b-bf92-d7707646a7d2",
+      "key": "414caad5c0366d307661007266e24c14",
+      "type": "Emulator Weekly Lite",
+      "sourceDate": "28/08/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "4e3e0f08-52cd-4e41-bcd4-3106869521da",
+      "key": "b5e7d1b0417aa277137ce60cc941d56a",
+      "type": "Emulator Monthly Lite",
+      "sourceDate": "28/08/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "94df2ecc-ac28-4762-b562-1913d21da18b",
+      "key": "ef1738ea2221750c0f39f82a52342bfb",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "28/08/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "fc1cab5f-af30-452a-99e3-107c6edcc460",
+      "key": "4727a0edd901359208efa38de07e3448",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "28/08/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "1aff0d60-6b12-4924-8d47-17015bdae1eb",
+      "key": "eba26fcc691ba33d08acb2aba1094d5d",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "08/08/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "3d41e96c-5980-46f8-89e1-43b6ddebaeb8",
+      "key": "1c70cd6b3967ffe361b40fd6b847a922",
+      "type": "Spoofer Monthly",
+      "sourceDate": "30/07/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "915e1470-3b0b-4444-aed8-28fc9ba19bea",
+      "key": "cb430f279ed0af60198d7461292999d9",
+      "type": "Spoofer Monthly",
+      "sourceDate": "30/07/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "8c5cc764-dce4-47ed-81e4-24279df3dfaa",
+      "key": "0f6b917476ddaf857654ae9aac30214f",
+      "type": "Spoofer Monthly",
+      "sourceDate": "30/07/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "b68ca834-2a96-4c02-85d3-198380993671",
+      "key": "83ab157a14589aa9d5d745b98a47f024",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "30/07/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "df8cfffb-2793-45b1-bc7a-4a8ca69284f0",
+      "key": "4294c3fad60b53ecf40c08c122cd72f5",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "30/07/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "63439654-bb82-4257-a9ec-86f1b9f66ad5",
+      "key": "9f8bf6207b6d1770e0f1edc8ed0bde66",
+      "type": "Spoofer Monthly",
+      "sourceDate": "23/06/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a6082827-62e5-4531-9e0e-504e840a5aaa",
+      "key": "533dfde75534cc1416d6796e3308ec07",
+      "type": "Spoofer Monthly",
+      "sourceDate": "23/06/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "aaf48d44-f8a0-4f02-bf96-ea019f8ac073",
+      "key": "49af5f33b9b85f815a73f69c4c4961d6",
+      "type": "Spoofer Monthly",
+      "sourceDate": "23/06/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "a6210536-40d0-4139-8669-ca5b260c1d0d",
+      "key": "4dd95dec56142fe2a9b96b5300f8e66e",
+      "type": "Spoofer Monthly",
+      "sourceDate": "23/06/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "7e337d7d-f078-49f1-9e41-c0e5ade75b45",
+      "key": "a8a101ea16b2cae53ce7cae643ac7cc7",
+      "type": "Spoofer Monthly",
+      "sourceDate": "23/06/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "d25ddc7a-aefd-47bb-ae7f-722d364630dc",
+      "key": "ed77da90419a25ade622399d906cc2c4",
+      "type": "Spoofer Monthly",
+      "sourceDate": "20/05/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "5923e739-6a9f-4c06-9d6f-3adae1cfa9a0",
+      "key": "7f6a94ac6af1f1c77b7b74817e9e5b4e",
+      "type": "Cancelled",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "1981690d-68ad-4d8d-9c15-bbf760ea14dc",
+      "key": "3686af61fcfdd6a0c95114d71491fe01",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "bf704b29-cfcd-41ff-aa25-d108c3e5282b",
+      "key": "b2c4e2ce61f3f2078ce53daa16ec3e82",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "51b7d7dd-60dd-43f9-9c66-f8e88d81379b",
+      "key": "026457775f29340fa0a8e38a3d5f5eed",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "eeb2cf3a-b3f9-40cf-af43-348feaa9101b",
+      "key": "624d5065e8b592da892dfb3c483ffb3d",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "3e9cda89-024f-48bd-babc-f61464e05325",
+      "key": "5e708bf7762a316f3b2ffd7180900c57",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "7ab7bcae-4881-407f-a007-33b75368acc6",
+      "key": "2b394e89a2a6245f59f993b5554d82f5",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "30/04/2025",
+      "importedAt": "2026-06-23T17:20:21.931Z",
+      "state": "available"
+    },
+    {
+      "id": "70e62990-92b4-4916-8ee3-f31988b7ae0d",
+      "key": "bb6e7ac28146fae1b5b0c7ffa03b5b31",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "75dd43f3-e67c-421c-b746-6bfa488ac812",
+      "key": "62048c9636f8e5c212eaff8ff8d0d499",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "21b18171-6048-4d7c-823c-ef506de98fe4",
+      "key": "df7c1c097ea254ec9f56e803e805118c",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "1b0df5a4-1b54-4bfc-841a-b68c2918b1df",
+      "key": "6f64b546edd341fe8bfd3833dda50203",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "2fdde836-7563-411c-b07b-58ab9347f382",
+      "key": "a7ad7f63400f54636c7507eb91e6cc27",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "28ed41d3-06e3-43b3-9a5a-99fc30976b95",
+      "key": "945e2b328cdeb1d847792e1312f5387b",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a60e4897-af96-41a6-ad5d-cb37d7d66435",
+      "key": "e09e2a9228a2d57500969eaa48f0bb8e",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "36bde5f5-6121-470b-b4f0-7b3d2739fff0",
+      "key": "0b7eaa0cd516efae8f60eecc1faab808",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "7cecf620-0bab-4e88-a863-79c9610c4087",
+      "key": "771e9d6916dfeabe334db456797d99cc",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "5a04e625-3f3d-42e8-9dc9-a2cb1f19d717",
+      "key": "555aeff2efa34e83029588786425047a",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "807313dc-6f9f-4da6-86d3-13ef2f0d1c80",
+      "key": "fbe1c64465fc1ac5767f969410c18a28",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "6da7db0b-1ec7-4739-a54c-5d9e1022a1bc",
+      "key": "d855f9676705f310261d2acb209d8a70",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "f77bedc8-4065-4d8f-965b-a023c07284f2",
+      "key": "9f398191b96021914d85ffa078cc0426",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "eacff003-e849-41c2-99af-8649b02d6090",
+      "key": "1b56f3fc8bd99659843c2d4040db11c7",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "0d810cac-76c3-419b-a4cb-3bd608853e31",
+      "key": "bed447a12ed83634ad2801606c44379e",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "c92fe575-1362-4cc7-b32d-e2e2591442f2",
+      "key": "10f9eab2b5f7692267bc097599756049",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "194cace6-aa69-4a59-a28f-f01dd53e0035",
+      "key": "ad2415717d32a523582c85b5e98214be",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "5b52750d-1e5b-484c-972c-23d03ecca3d9",
+      "key": "973214d2d42ba2f33bcd2a0bdc2121c7",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "29a26d67-1d6c-417a-bd42-6ed1f3e84d24",
+      "key": "1858128e6801bae194a9a496cf6b9d2a",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "0091610a-46d8-4266-9d84-16034fc188fb",
+      "key": "969f4ed626b31fbcbb9e68e92568af46",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "f36b11c2-cfed-4fe3-84e5-8ad76359ac41",
+      "key": "ef830496504d22a520af8e624a274b11",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "85a67564-77a7-46dc-9122-8b11ab475487",
+      "key": "4f6cc020121073caa6285f23bdec2d2b",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "9ef79950-2960-4cd5-8079-b0ff29bedaf0",
+      "key": "ae18a40b4d891945a0521ea91bf6ef91",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "7e825c7e-e490-4bc5-8f45-4f3e8804b063",
+      "key": "20475d790dc3f782a68d65b2c4b5b250",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a3067c13-27ba-41c6-bc50-667a7344f40c",
+      "key": "e6d5679e9ff144a4f2dba86656ceba97",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3e4c02d8-5dbb-4a87-8546-83143c542683",
+      "key": "5d8d991e09a4e1b2f81f9fb728b9cea3",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "f03b838b-5be9-4c5e-8dcc-05b4d1799afe",
+      "key": "cedae362ac10f0d69237381911fb5e8c",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "b0eb4cd8-dd27-406f-8b40-ad802c901ef3",
+      "key": "2530be1c1b249b76c54ff1511b4f5bb4",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a3b3a8b8-fa5c-4cd9-a61a-3485b08c4489",
+      "key": "2037c8718888aa3bb75bc57cdffa1851",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "c0c7b753-e510-4214-90e9-627b898d30a4",
+      "key": "c030d502b03bbbfb86da597e35e621a3",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "184865ab-21b1-467e-9c08-5355c44a1f2e",
+      "key": "6dd7b046f06df0cfa378d91e79a3cb60",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "594779a6-8b78-4443-aeff-ec2cf83ed6c8",
+      "key": "d880e855cc80b3196253fc8f0abd25f0",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "bd61e015-87a2-4159-bb08-60a064912ed1",
+      "key": "f88a9b9d5701f89d9b0cd7db8a8e2999",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "ff7ebcdc-f5f0-413f-a1e5-b3120452b54b",
+      "key": "e1ff934f8ed71a0614478d42a055cb1b",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "ed7ab6ec-f113-4a9d-8bbb-39855599c1b8",
+      "key": "674b2fe4f932e0ca43a4ce23de9a9210",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "4c08f0e0-0d4d-48c4-b328-9bd04b920c05",
+      "key": "252efefccc47b6a1422787dc82548f17",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "4bcedce1-9e33-43fd-8dae-8e03511f8fdc",
+      "key": "24a4805374771952fa72eb83683475da",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3310bd62-6b0b-491b-8fde-5f809f4b2041",
+      "key": "567f28e7b8465e8723a9ece7970aee80",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "51871366-7029-4f8d-a7bb-7cd66a10171e",
+      "key": "5a2268e7f2dbb3e7063dbd4421b90fc1",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "78126732-c0f2-412f-93d4-bacada62de7f",
+      "key": "28a9b5d458736272df0013fcd85b9877",
+      "type": "Emulator Weekly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "00c1ddac-2851-4e77-8905-07a5fde9b768",
+      "key": "a2ef9322fc6db3a1d0fd9a9a05652a0e",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "2bd9fef0-37a5-4072-b87c-a0880b8ef8e9",
+      "key": "cb6e16fc743604fc42371311212dcb86",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "2d54ea3f-127c-4bdb-9f02-0f753269e784",
+      "key": "6f75169edfdc68a64b0fb54a1e05ae36",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "f8582bb8-4a2d-484f-b7fa-924e49b0866a",
+      "key": "bb1f27c8374d5f82fd9d4b2014e90f08",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "67fc0778-d1fd-450e-8b4e-518d98e94842",
+      "key": "4bc74cada6ed115b7a56f3b4e01efb6f",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "35dc0f45-f79c-48fa-b5d7-ff747a718997",
+      "key": "6cc08f9900857ce6d80a876df86ee6e3",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "43831c01-aaab-4f41-9f41-bfb1fef2568f",
+      "key": "dec757294493269028578d0006bd268b",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "fbbc3193-1c72-4919-ac52-834e60d50299",
+      "key": "d4555b9bd058c3811b6ee94ce317ee53",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "99cbe0cc-8bd5-44e0-a883-65e20ab75e16",
+      "key": "ae4927b4cc4ab6748c698c6903b1827c",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "ec580985-91bf-4990-9237-42effe004c60",
+      "key": "5059d263358e3964df441ef141a8f219",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "978dd1d9-bd60-4036-8a24-aa9be4f8cd10",
+      "key": "715cc44cde93e8a059566baa25892377",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "728eb482-0521-43c9-94b1-b5ffdc997463",
+      "key": "b1901b958f8881b1ac67a7cd94768118",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a963d9d6-f0d0-41ac-ad31-c7d12c6b26c8",
+      "key": "2c80ee8e835cb1d1e771a21a050d7472",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "d987d7a2-586a-45cc-99de-9cb128997e77",
+      "key": "ac53ef9047a273d785fbd35580ff5bd3",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3807f320-c6c9-40ec-a8a7-82cd42bcfd09",
+      "key": "7a291c8aea61169d36aad5f065b32a8b",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "b1697b86-f852-4413-9fa1-68e6a91783af",
+      "key": "8a9ba93730ec5493cb4b82d4ffb30b54",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3af0e0a7-420e-4838-9656-c13f543ac063",
+      "key": "c2b70d2afe30a5fc64b2afcce6b689db",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "da971903-aecf-4208-b890-f58ae862770b",
+      "key": "87e17444b80b508ed46eb66bb2ee3bb5",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "5c637113-da2d-488e-a7de-8bfcb1031ea6",
+      "key": "0f0bbf231c97ecb9cf1aae954e55f9a2",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "8419c10f-f326-412f-9078-78970380a94f",
+      "key": "465f21c77c9f64c4ab77fc8fa11704ff",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "d8dc36fa-447e-498a-b37a-8a4d0532e765",
+      "key": "d0d304a6b5f3b364d87ba4b7d544d9bf",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3af4130a-c0d5-44b8-8c82-dce525078735",
+      "key": "07b844ec4119083901038b039ddccebf",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "b3adcb4a-92d5-471a-b888-6a457fbf9fc2",
+      "key": "4ec56afd83ce38941bcb7dff045e187d",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a67dd0c5-49ab-465f-a3cf-2b70a1e696e5",
+      "key": "ca47fe3a45ccee49843633fcecb54adc",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "44d6199f-f736-44d2-aead-fb36eaa74bc1",
+      "key": "781e43e6180e1ccd98db328bea74072f",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "93973048-7a89-48c7-9e20-5cc456c34ae5",
+      "key": "5f5312139aa65a744c46faff388de84c",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "e50b7484-d497-4230-9a80-0f288a73af31",
+      "key": "66d95e1e28a7e995242e09721f480323",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "1aebbc25-5dde-462b-bc40-6c416063e91c",
+      "key": "894554cd304cda538bdbb985a2f62fd7",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "8380cc0e-e882-40ae-8b43-f2a4e8fbf52c",
+      "key": "fddb1a918a237acabe3cf6ca2b8822b4",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "2e010bd2-f7f3-4320-b478-6eef7d6c7be2",
+      "key": "b7207acfb359a99dd03e168a88f1bb04",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a4990e6e-f296-44ec-88f8-c6c2a84877b5",
+      "key": "3f0c8d56c0fb4196a0fc08e9ab8719d7",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3051a0ba-22ae-45f2-8f9e-ad9a08826f49",
+      "key": "f9fef1088a89f53fc7e1ff5596424473",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "765474e1-7b4d-4874-9893-fdedb8be411d",
+      "key": "a4e04560fddb1193085e5480f6249c3a",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "d60f1f68-569b-438a-a4d6-e568b90bf988",
+      "key": "42065c26d726e16d0429c76412a0edd2",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "49bf21ac-0ede-44be-b8ad-841d4b399d59",
+      "key": "81378e2215f2e9287d8d6e1b918ffce3",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "0021639a-7488-4a07-85e2-d42f89036e56",
+      "key": "e20c5d9b66028b73b3def0ae5a8e10ae",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "c4833786-d158-4ef5-a9bd-e1bbab93ec13",
+      "key": "a1b5967a94d79258d0ad2ed8d63e6ed7",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "c5f03c9d-cc7d-457c-8d26-f366994dfb72",
+      "key": "a957499bbdad9352c12046b7afc6ea32",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "738780d0-bd49-45dd-bd41-b258933dbf33",
+      "key": "c1badea1ff77f754877b874791b708a2",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a9adf92b-7526-4dd5-8dad-912e778e815a",
+      "key": "2bb0a00bf14fc0374fd68e38c445fbeb",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "fa2ecee2-73c6-45d3-8baa-aaad861664ab",
+      "key": "b0f11dc7f6bed31de5c174af435605dd",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "d7bab279-c6f3-4d84-85a0-1fdd50c7dc67",
+      "key": "6417a50e8f0c87c2371e06f07ce567bb",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "959a31c7-281e-47fe-b3fe-d38ffa6b0c2f",
+      "key": "8d16511a4b95387e25b455bbdb41dff8",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "a0459bff-e11e-433c-b149-0bafdd847ff6",
+      "key": "c0c7666b45a3e4f357cb4638ae421658",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "f6382ccb-0289-484d-a37f-9f8c15e0dea1",
+      "key": "e44db13b8ab433497c94350a50a6b7fc",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "4fd45338-4778-4c44-a498-21049a821f10",
+      "key": "ff41d427f08ab00e04f10d007fce1c89",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "e0ebb4e0-397a-4754-aeb0-e87a6ebd517b",
+      "key": "67aa7f42063a037feaa747d19f7da79e",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "570c54ce-c8b0-4514-b812-cc6fb7069341",
+      "key": "c5c13e68d6e5acf67006d70fd90f3899",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "0198be89-dfe4-4077-b1ba-3c2789f72931",
+      "key": "e9c3606bfa5211b618485cee0e585afd",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "81d36e26-88f7-43ef-9a49-9558a1711cbb",
+      "key": "80c9e12697468e1f2136082d53b089d6",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "ffcf1751-237f-4b3f-8176-4eb8745d4656",
+      "key": "9f0366590b602fa1926e04353a2176b3",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "3343c7d6-9987-4ca0-a9b2-00d383b70cba",
+      "key": "c0f897a8c23e8be0cdc0dfd9817c2803",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    },
+    {
+      "id": "c28f2e68-ceee-4a8d-93c2-f41a0bb1bc60",
+      "key": "21da20e196fc68df6d4558e15cc39312",
+      "type": "Emulator Monthly PRO",
+      "sourceDate": "22/06/2026",
+      "importedAt": "2026-06-23T17:20:21.932Z",
+      "state": "available"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "43ce54a5-be18-4ec9-92d9-c4efefe81c5a",
+      "pseudo": "Amoor",
+      "key": "eace8434ca4ed7f491a9b158b7a34c74",
+      "type": "1 An Pro",
+      "assignedAt": "2026-02-27T18:35",
+      "endsAt": "2027-02-27T18:35",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "ebaa1e41-f6f9-48f8-ad34-5524cd004199",
+      "pseudo": "Faze",
+      "key": "9c8baeec88e28d935a9de53cfb6d1004",
+      "type": "Lifetime",
+      "assignedAt": "2026-03-05T18:54",
+      "endsAt": "",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "6de306e0-8714-4700-9660-0860be73e1f8",
+      "pseudo": "Matou",
+      "key": "282ee6db86f62954a52c755762fd6cb4",
+      "type": "Lifetime",
+      "assignedAt": "2026-03-05T18:59",
+      "endsAt": "",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "7f8aaf10-efee-4928-9a88-ac5c996b5047",
+      "pseudo": "keno971",
+      "key": "ec1892fc18bc5c30a63566c1979ad04f",
+      "type": "1 An Pro",
+      "assignedAt": "2026-04-11T23:55",
+      "endsAt": "2027-04-11T23:55",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "2ad9f55d-7913-4b0a-9417-4449db059948",
+      "pseudo": "Tommy egan",
+      "key": "9c8baeec88e28d935a9de53cfb6d1004",
+      "type": "Lifetime",
+      "assignedAt": "2026-05-10T21:07",
+      "endsAt": "",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "6f903cd3-b4b5-4120-b1ce-6aa6955053f0",
+      "pseudo": "mowgli",
+      "key": "7f0eee8547a4edfcb37f7c4e8f40342b",
+      "type": "1 An Pro",
+      "assignedAt": "2026-06-06T15:46",
+      "endsAt": "2027-06-06T15:46",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "6fb51a8d-2485-4b1b-a13c-4aee346ec1f5",
+      "pseudo": "quent42",
+      "key": "43c1f7ff576a75d95a8f2258279057ea",
+      "type": "1 An Pro",
+      "assignedAt": "2026-06-09T16:38",
+      "endsAt": "2027-06-09T16:38",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "93d85b31-f714-468c-8ba7-7feed69e4275",
+      "pseudo": "tazz",
+      "key": "7f0eee8547a4edfcb37f7c4e8f40342b",
+      "type": "Lifetime",
+      "assignedAt": "2026-06-15T21:54",
+      "endsAt": "",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    },
+    {
+      "id": "7b032bed-5640-4dde-80e7-037cb810dd66",
+      "pseudo": "fury",
+      "key": "09edcfe49722d402003fe47af2bf7fad",
+      "type": "1 Mois Pro",
+      "assignedAt": "2026-06-20T14:52",
+      "endsAt": "2026-07-20T14:52",
+      "status": "active",
+      "discordId": "",
+      "email": "",
+      "notes": "Importé depuis l’ancien tableau Lovable."
+    }
+  ],
+  "archive": []
+}

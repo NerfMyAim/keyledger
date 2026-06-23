@@ -23,7 +23,7 @@
   <main>
     <header class="topbar">
       <div><p class="eyebrow">GESTION REVENDEUR</p><h1 id="page-title">Vue d’ensemble</h1></div>
-      <div class="top-actions"><button class="button ghost" data-view="data">Importer</button><button id="new-assignment" class="button primary">+ Attribuer une clé</button></div>
+      <div class="top-actions"><button id="connection-button" class="button ghost">Connexion</button><button class="button ghost" data-view="data">Importer</button><button id="new-assignment" class="button primary">+ Attribuer une clé</button></div>
     </header>
 
     <section id="view-dashboard" class="view active">
@@ -104,7 +104,16 @@
     <p class="form-note">Cette note est interne ; elle est visible dans l’inventaire et exportée dans la sauvegarde JSON.</p>
     <div class="modal-actions"><button type="button" class="button ghost" data-close-note-dialog>Annuler</button><button class="button primary" value="default">Enregistrer la note</button></div>
   </form></dialog>
+  <dialog id="login-dialog"><form id="login-form" method="dialog">
+    <div class="modal-header"><div><p class="eyebrow">SUPABASE</p><h2>Connexion administrateur</h2></div><button type="button" class="icon-button" data-close-login-dialog aria-label="Fermer">×</button></div>
+    <p class="form-note">Connecte-toi avec l’e-mail et le mot de passe créés dans Supabase Authentication.</p>
+    <div class="field"><label for="login-email">E-mail</label><input id="login-email" type="email" required autocomplete="email"></div>
+    <div class="field"><label for="login-password">Mot de passe</label><input id="login-password" type="password" required autocomplete="current-password"></div>
+    <p id="login-message" class="muted"></p>
+    <div class="modal-actions"><button type="button" class="button ghost" data-close-login-dialog>Annuler</button><button class="button primary" value="default">Se connecter</button></div>
+  </form></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
