@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>KeyLedger — gestion des licences</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">K</span><span>KeyLedger<small>LICENCE OPS</small></span></div>
+    <nav>
+      <button class="nav-link active" data-view="dashboard">Vue d’ensemble</button>
+      <button class="nav-link" data-view="stock">Inventaire <span id="stock-nav-count" class="nav-count">0</span></button>
+      <button class="nav-link" data-view="assignments">Attributions <span id="assignment-nav-count" class="nav-count">0</span></button>
+      <button class="nav-link" data-view="history">Historique <span id="history-nav-count" class="nav-count">0</span></button>
+      <button class="nav-link" data-view="data">Import & sauvegarde</button>
+    </nav>
+    <div class="local-note"><span class="dot"></span> Sauvegarde locale<br><small>Ce navigateur uniquement</small></div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div><p class="eyebrow">GESTION REVENDEUR</p><h1 id="page-title">Vue d’ensemble</h1></div>
+      <div class="top-actions"><button class="button ghost" data-view="data">Importer</button><button id="new-assignment" class="button primary">+ Attribuer une clé</button></div>
+    </header>
+
+    <section id="view-dashboard" class="view active">
+      <div class="stats">
+        <article class="stat"><span>Stock disponible</span><strong id="stat-stock">0</strong><small>clés réellement libres</small></article>
+        <article class="stat"><span>Attributions actives</span><strong id="stat-active">0</strong><small>clients suivis</small></article>
+        <article class="stat alert"><span>Échéances proches</span><strong id="stat-due">0</strong><small>dans les 7 prochains jours</small></article>
+        <article class="stat"><span>Historique archivé</span><strong id="stat-archive">0</strong><small>attributions terminées</small></article>
+      </div>
+      <div class="grid-two">
+        <section class="card"><div class="card-title"><div><h2>Échéances à suivre</h2><p>Les licences arrivant à terme ou déjà échues.</p></div><button class="text-button" data-view="assignments">Voir tout</button></div><div id="due-list" class="compact-list"></div></section>
+        <section class="card"><div class="card-title"><div><h2>Répartition du stock</h2><p>Par type de licence.</p></div></div><div id="type-breakdown" class="breakdown"></div></section>
+      </div>
+      <section class="card"><div class="card-title"><div><h2>Bon réflexe</h2><p>Une attribution reste traçable même après sa fin.</p></div></div><p class="guidance">Archive une attribution lorsque le contrat est terminé. La clé n’est jamais remise automatiquement dans le stock : vérifie toujours les droits de licence et ce qui a été vendu au client avant toute nouvelle utilisation.</p></section>
+    </section>
+
+    <section id="view-stock" class="view">
+      <section class="card table-card">
+        <div class="card-title"><div><h2>Inventaire des clés</h2><p id="stock-subtitle">Chaque clé reste visible, même après attribution.</p></div><input id="stock-search" class="search" type="search" placeholder="Rechercher une clé ou un type"></div>
+        <div class="table-wrap"><table><thead><tr><th>Clé</th><th>Type</th><th>Date source</th><th>Statut</th><th>Attribuée à</th><th></th></tr></thead><tbody id="stock-table"></tbody></table></div>
+      </section>
+    </section>
+
+    <section id="view-assignments" class="view">
+      <section class="card table-card">
+        <div class="card-title"><div><h2>Attributions actives</h2><p>Suivi des clients et des échéances contractuelles.</p></div><input id="assignment-search" class="search" type="search" placeholder="Pseudo, e-mail, clé, type"></div>
+        <div class="table-wrap"><table><thead><tr><th>Client Discord</th><th>Clé</th><th>Type</th><th>Attribuée le</th><th>Échéance</th><th>Statut</th><th></th></tr></thead><tbody id="assignment-table"></tbody></table></div>
+      </section>
+    </section>
+
+    <section id="view-history" class="view">
+      <section class="card table-card">
+        <div class="card-title"><div><h2>Historique des attributions</h2><p>Chaque attribution reste enregistrée, y compris lorsqu’elle est terminée.</p></div><input id="history-search" class="search" type="search" placeholder="Pseudo, clé, type"></div>
+        <div class="table-wrap"><table><thead><tr><th>Client Discord</th><th>Clé</th><th>Type</th><th>Début</th><th>Échéance</th><th>Fin / statut</th><th>Note</th></tr></thead><tbody id="history-table"></tbody></table></div>
+      </section>
+    </section>
+
+    <section id="view-data" class="view">
+      <div class="grid-two data-grid">
+        <section class="card"><div class="card-title"><div><h2>Importer le stock CSV</h2><p>Formats acceptés : <code>Clé;Type;Date</code>, comme tes deux fichiers exportés.</p></div></div>
+          <label class="dropzone"><input id="csv-import" type="file" accept=".csv,text/csv" multiple><span>Choisir tes deux fichiers CSV</span><small>Les doublons sont ignorés ; les clés déjà attribuées ne sont pas réintroduites dans le stock.</small></label>
+          <p id="import-report" class="muted">Aucun import lancé.</p>
+        </section>
+        <section class="card"><div class="card-title"><div><h2>Importer l’ancien tableau</h2><p>Optionnel : lit localement les lignes actives de ton export HTML Lovable.</p></div></div>
+          <label class="dropzone"><input id="html-import" type="file" accept=".html,text/html"><span>Choisir l’ancien fichier HTML</span><small>Importe pseudo, clé, type, dates et statut. Rien n’est envoyé sur Internet.</small></label>
+          <p id="html-report" class="muted">Les 9 attributions actuelles ont déjà été préchargées.</p>
+        </section>
+      </div>
+      <section class="card"><div class="card-title"><div><h2>Sauvegarde portable</h2><p>Pour changer de navigateur ou préparer une migration vers une base partagée.</p></div></div>
+        <div class="backup-actions"><button id="export-json" class="button primary">Exporter une sauvegarde JSON</button><label class="button ghost file-button">Restaurer une sauvegarde<input id="restore-json" type="file" accept="application/json,.json"></label><button id="export-audit" class="button ghost">Exporter le journal CSV</button></div>
+      </section>
+      <section class="card warning"><h2>Discord + Netlify : ce qu’il faut pour automatiser</h2><p>Cette version conserve les données dans ce navigateur. Pour qu’un bot Discord ajoute une attribution automatiquement, il faut une base partagée (par exemple Supabase) et une fonction Netlify sécurisée qui vérifie les interactions Discord. Ne place jamais un token Discord dans ce site statique.</p></section>
+    </section>
+  </main>
+
+  <dialog id="assignment-dialog"><form id="assignment-form" method="dialog">
+    <div class="modal-header"><div><p class="eyebrow" id="dialog-kicker">NOUVELLE ATTRIBUTION</p><h2 id="dialog-title">Attribuer une clé</h2></div><button type="button" class="icon-button" data-close-dialog aria-label="Fermer">×</button></div>
+    <input type="hidden" id="assignment-id"><input type="hidden" id="assignment-key">
+    <div id="key-picker-wrap" class="field"><label for="assignment-stock-key">Clé du stock</label><select id="assignment-stock-key" required></select></div>
+    <div class="key-preview" id="key-preview"></div>
+    <div class="form-grid">
+      <div class="field"><label for="client-pseudo">Pseudo Discord</label><input id="client-pseudo" required placeholder="ex. client#0001"></div>
+      <div class="field"><label for="discord-id">ID Discord <small>(optionnel)</small></label><input id="discord-id" placeholder="Identifiant numérique"></div>
+      <div class="field"><label for="client-email">E-mail <small>(optionnel)</small></label><input id="client-email" type="email" placeholder="client@email.com"></div>
+      <div class="field"><label for="assignment-date">Date d’attribution</label><input id="assignment-date" type="datetime-local" required></div>
+      <div class="field"><label for="expiry-date">Échéance client <small>(optionnel)</small></label><input id="expiry-date" type="datetime-local"></div>
+      <div class="field"><label for="assignment-status">Statut</label><select id="assignment-status"><option value="active">Active</option><option value="paused">En pause</option></select></div>
+    </div>
+    <div class="field"><label for="assignment-notes">Note interne <small>(optionnel)</small></label><textarea id="assignment-notes" rows="3" placeholder="Ticket Discord, détail de la vente…"></textarea></div>
+    <p class="form-note">La clé choisie sera retirée du stock et conservée dans l’historique de l’attribution.</p>
+    <div class="modal-actions"><button type="button" class="button ghost" data-close-dialog>Annuler</button><button id="save-assignment" class="button primary" value="default">Enregistrer l’attribution</button></div>
+  </form></dialog>
+  <dialog id="key-note-dialog"><form id="key-note-form" method="dialog">
+    <div class="modal-header"><div><p class="eyebrow">NOTE INTERNE</p><h2>Note sur la clé</h2></div><button type="button" class="icon-button" data-close-note-dialog aria-label="Fermer">×</button></div>
+    <input type="hidden" id="note-key-id">
+    <p id="note-key-label" class="key-preview"></p>
+    <div class="field"><label for="key-note">Observation</label><textarea id="key-note" rows="5" placeholder="Ex. comportement à surveiller, information importante…"></textarea></div>
+    <p class="form-note">Cette note est interne ; elle est visible dans l’inventaire et exportée dans la sauvegarde JSON.</p>
+    <div class="modal-actions"><button type="button" class="button ghost" data-close-note-dialog>Annuler</button><button class="button primary" value="default">Enregistrer la note</button></div>
+  </form></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
